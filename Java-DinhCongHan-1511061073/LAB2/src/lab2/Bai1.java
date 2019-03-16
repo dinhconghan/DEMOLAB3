@@ -12,14 +12,14 @@ import java.util.Scanner;
  * @author Administrator
  */
 public class Bai1 {
-     public static Scanner scanner = new Scanner(System.in);
+     public static Scanner x = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.prinln("Nhập hệ số bậc 2, a = ");
-        float a = Bai1.scanner.nextFloat();
+        float a = Bai1.x.nextFloat();
         System.out.prinln("Nhập hệ số bậc 1, b = ");
-        float b = Bai1.scanner.nextFloat();
+        float b = Bai1.x.nextFloat();
         System.out.prinln("Nhập hằng số tự do, c = ");
-        float c = Bai1.scanner.nextFloat();
+        float c = Bai1.x.nextFloat();
         giaiPTBac2(a, b, c);
     }
     

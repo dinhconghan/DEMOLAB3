@@ -5,13 +5,13 @@
  */
 package lab2;
 import java.util.Random;
-
+import java.util.Scanner;
 public class Bai2 {
     public static Random rd = new Random();	// khai báo 1 đối tượng Random
-
+	public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Nhập số phần tử của mảng: ");
-        int n = Bai1.x.nextInt();
+        int n = scanner.nextInt();
         int [] arr = new int [n];
         for (int i = 0; i < n; i++) {
             do{
