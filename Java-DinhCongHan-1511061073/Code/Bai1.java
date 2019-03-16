@@ -33,12 +33,12 @@ public class Bai1 {
             }
             else 
             {
-                System.out.println("Phương trình có một nghiệm: "+ "x = " + (c / b));
+                System.out.println("Phương trình có một nghiệm: "+ "x = " + (-c / b));
             }
             return;
         }
 
-        float delta = b*b - 4*a*c;
+        float delta = b*b + 4*a*c;// float delta = b*b - 4*a*c;
         float x1;
         float x2;
         
