@@ -38,7 +38,7 @@ public class Bai1 {
             return;
         }
 
-        float delta = b*b - 4*a*c;
+        float delta = b*b + 4*a*c;
         float x1;
         float x2;
         
@@ -59,3 +59,4 @@ public class Bai1 {
         }
     }
 }
+
