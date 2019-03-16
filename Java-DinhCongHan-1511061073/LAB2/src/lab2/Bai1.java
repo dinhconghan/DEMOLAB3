@@ -12,14 +12,14 @@ import java.util.Scanner;
  * @author Administrator
  */
 public class Bai1 {
-    public static Scanner x = new Scanner(System.in);
+     public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.print("Nhập hệ số bậc 2, a = ");
-        float a = x.nextFloat();
-        System.out.print("Nhập hệ số bậc 1, b = ");
-        float b = x.nextFloat();
-        System.out.print("Nhập hằng số tự do, c = ");
-        float c = x.nextFloat();
+        System.out.prinln("Nhập hệ số bậc 2, a = ");
+        float a = Bai1.scanner.nextFloat();
+        System.out.prinln("Nhập hệ số bậc 1, b = ");
+        float b = Bai1.scanner.nextFloat();
+        System.out.prinln("Nhập hằng số tự do, c = ");
+        float c = Bai1.scanner.nextFloat();
         giaiPTBac2(a, b, c);
     }
     
@@ -33,12 +33,12 @@ public class Bai1 {
             }
             else 
             {
-                System.out.println("Phương trình có một nghiệm: "+ "x = " + (-c / b));
+                System.out.println("Phương trình có một nghiệm: "+ "x = " + (-c / b));//sua cho nay
             }
             return;
         }
 
-        float delta = b*b + 4*a*c;// float delta = b*b - 4*a*c;
+        float delta = b*b - 4*a*c;//sua cho nay
         float x1;
         float x2;
         
