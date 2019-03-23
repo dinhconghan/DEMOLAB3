@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -20,7 +20,9 @@ public class Bai1 {
         float b = x.nextFloat();
         System.out.print("Nhập hằng số tự do, c = ");
         float c = x.nextFloat();
-        giaiPTBac2(a, b, c);
+	//sua cho nay
+	Java-DinhCongHan-1511061073/Code/Bai1.java;
+        
     }
     
     public static void giaiPTBac2(float a, float b, float c) {
