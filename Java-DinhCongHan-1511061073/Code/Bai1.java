@@ -21,6 +21,12 @@ public class Bai1 {
         System.out.print("Nhập hằng số tự do, c = ");
         float c = x.nextFloat();
         giaiPTBac2(a, b, c);
+		giaiPTBac2(a, b, c);
+		giaiPTBac2(a, b, c);
+		giaiPTBac2(a, b, c);
+		giaiPTBac2(a, b, c);
+		giaiPTBac2(a, b, c);
+		
     }
     
     public static void giaiPTBac2(float a, float b, float c) {
