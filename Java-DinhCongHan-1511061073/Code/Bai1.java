@@ -20,9 +20,9 @@ public class Bai1 {
         float b = x.nextFloat();
         System.out.print("Nhập hằng số tự do, c = ");
         float c = x.nextFloat();
-	//sua cho nay
-	Java-DinhCongHan-1511061073/Code/Bai1.java;
-        
+
+		giaiPTBac2(a, b, c);
+
     }
     
     public static void giaiPTBac2(float a, float b, float c) {
